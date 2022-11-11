@@ -27,7 +27,15 @@ p{
     padding: 7% 15%;
 }
 
+/* Sections  */
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;    
+}
 
+.white-section{
+    background-color: #fff;
+}
 
 /* Navigation bar */
 .navbar {
@@ -48,14 +56,9 @@ p{
 
  /* Title section  */
 
- #title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Download button */
@@ -75,7 +78,6 @@ p{
 /* features Section  */
 
 #features {
-    background-color: #fff;
     position: relative;
     
 }
@@ -96,9 +98,7 @@ p{
 
 /* testimonials section  */
 #testimonials{
-    background-color: #ef8172;
-    color: #fff;
-    
+    background-color: #ef8172;   
 }
 .testimonial-text {
     font-size: 3rem;
@@ -136,10 +136,6 @@ p{
 
 /* CTA section  */
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
 .cta-heading {
     font-family: "Montserrat";
     font-size: 3.7rem;
@@ -148,6 +144,7 @@ p{
 
 }
 
+ /* footer Section  */
 
 .social-icon {
     margin: 20px 10px
